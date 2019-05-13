@@ -114,7 +114,7 @@ function parar_jogo(){
 function remove_eventos_baloes() {
 	var i = 1; //contado para recuperar balões por id
        
-    //percorre o lementos de acordo com o id e só irá sair do laço quando não houver correspondência com elemento
+    //percorre os elementos de acordo com o id e só irá sair do laço quando não houver correspondência com elemento
     while(document.getElementById('b'+i)) {
     //retira o evento onclick do elemnto
     	document.getElementById('b'+i).onclick = '';
